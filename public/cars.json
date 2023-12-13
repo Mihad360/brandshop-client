@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "image": "https://i.ibb.co/FnZN7Q6/toyota-logo-2020.png",
+        "name": "toyota"
+    },
+    {
+        "id": 2,
+        "image": "https://i.ibb.co/qjF5yTc/download.jpg",
+        "name": "ford"
+    },
+    {
+        "id": 3,
+        "image": "https://i.ibb.co/KWFV88v/taipei-taiwan-oct-d-rendering-bmw-logo-bmw-german-automobile-manufacturer-d-rendering-bmw-logo-bmw-g.webp",
+        "name": "bmw"
+    },
+    {
+        "id": 4,
+        "image": "https://i.ibb.co/CBn620H/images.jpg",
+        "name": "marcedes"
+    },
+    {
+        "id": 5,
+        "image": "https://i.ibb.co/VpcpPD8/Color-Tesla-logo.jpg",
+        "name": "tesla"
+    },
+    {
+        "id": 6,
+        "image": "https://i.ibb.co/zZmFB3Q/download-1.jpg",
+        "name": "honda"
+    }
+]
