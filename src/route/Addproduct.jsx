@@ -33,7 +33,7 @@ const Addproduct = () => {
         const details = { name, photo, brandName, price, type, description, rating }
         // console.log(details)
 
-        fetch('https://assignment-10-server-dsjeonh5x-montasir-mihads-projects.vercel.app/cars', {
+        fetch('https://brandshop-war.vercel.app/cars', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

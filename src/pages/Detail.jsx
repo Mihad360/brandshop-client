@@ -23,7 +23,7 @@ const Detail = () => {
     const handleadd = () => {
         // eslint-disable-next-line no-unused-vars
         const { name, photo, brandName, type, description, price, rating, _id} = cars
-        fetch('https://assignment-10-server-dsjeonh5x-montasir-mihads-projects.vercel.app/addcars', {
+        fetch('https://brandshop-war.vercel.app/addcars', {
             method: 'POST',
             headers: {
             'content-type': 'application/json'

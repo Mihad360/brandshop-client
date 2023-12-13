@@ -36,7 +36,7 @@ const router = createBrowserRouter([
       {
         path: '/carts',
         element: <Privateroute><Carts></Carts></Privateroute>,
-        loader: () => fetch('https://assignment-10-server-dsjeonh5x-montasir-mihads-projects.vercel.app/addcars')
+        loader: () => fetch('https://brandshop-war.vercel.app/addcars')
       },
       {
         path: '/register',
@@ -49,17 +49,17 @@ const router = createBrowserRouter([
       {
         path: '/details/:id',
         element: <Details></Details>,
-        loader: () => fetch('https://assignment-10-server-dsjeonh5x-montasir-mihads-projects.vercel.app/cars')
+        loader: () => fetch('https://brandshop-war.vercel.app/cars')
       },
       {
         path: '/detail/:id',
         element: <Privateroute><Detail></Detail></Privateroute>,
-        loader: () => fetch('https://assignment-10-server-dsjeonh5x-montasir-mihads-projects.vercel.app/cars')
+        loader: () => fetch('https://brandshop-war.vercel.app/cars')
       },
       {
         path: '/update/:id',
         element: <Privateroute><Update></Update></Privateroute>,
-        loader: ({params}) => fetch(`https://assignment-10-server-dsjeonh5x-montasir-mihads-projects.vercel.app/cars/${params.id}`)
+        loader: ({params}) => fetch(`https://brandshop-war.vercel.app/cars/${params.id}`)
       }
     ]
   },

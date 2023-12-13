@@ -38,7 +38,7 @@ const Update = () => {
         const updatecar = { name, photo, brandName, price, type, description, rating }
         // console.log(details)
 
-        fetch(`https://assignment-10-server-dsjeonh5x-montasir-mihads-projects.vercel.app/cars/${_id}`, {
+        fetch(`https://brandshop-war.vercel.app/cars/${_id}`, {
             method: 'PUT',
             headers: {
                 'content-type': 'application/json'
